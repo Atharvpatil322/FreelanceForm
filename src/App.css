@@ -1,0 +1,162 @@
+/* #root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+
+/* App.css */
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+}
+
+h2 {
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 30px;
+  color: #333;
+}
+
+label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #444;
+}
+
+input[type="text"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 15px;
+  box-sizing: border-box;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+.field-group {
+  margin-bottom: 20px;
+}
+
+.repeatable-group {
+  padding: 15px;
+  border: 1px solid #ddd;
+  background-color: #fafafa;
+  margin-bottom: 16px;
+  border-radius: 5px;
+}
+
+.button-row {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+
+button {
+  padding: 10px 18px;
+  font-size: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"] {
+  background-color: #2563eb;
+  color: white;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+button.back-btn {
+  background-color: #e5e7eb;
+  color: #111827;
+}
+
+button.back-btn:hover {
+  background-color: #d1d5db;
+}
+
+button.remove-btn {
+  background: none;
+  color: #dc2626;
+  font-size: 14px;
+  margin-top: 8px;
+  cursor: pointer;
+}
+
+button.add-btn {
+  background: none;
+  color: #2563eb;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.preview-box {
+  background-color: #f9fafb;
+  border: 1px solid #e5e7eb;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: monospace;
+  white-space: pre-wrap;
+  font-size: 14px;
+  color: #374151;
+}
